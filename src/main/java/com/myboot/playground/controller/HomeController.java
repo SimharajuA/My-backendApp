@@ -10,5 +10,9 @@ public class HomeController {
 		return "hello world";
 		
 	}
+	@GetMapping("/hello/one")
+	public String helloCloud() {
+		return "Hello Cloud";
+	}
 
 }
